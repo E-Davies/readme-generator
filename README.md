@@ -41,7 +41,9 @@ As a developer, I wanted to create a README generator so that I can quickly crea
 > [!CAUTION]
 > If you run the 'node index.js' command again in the integrated terminal, it will overwrite any current README.md file that may already exist in the output folder.
 
-### This video provides a walkthrough of how to use this application:
+### This video provides a walkthrough of how to use the application:
+
+<video src="assets/videos/how-to-use-app-video.mp4" controls title="How to use the application"></video>
 
 <!--A walkthrough video that demonstrates the functionality of the README generator must be submitted and a link to the video should be included in your README file -->
 

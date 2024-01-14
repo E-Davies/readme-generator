@@ -1,5 +1,4 @@
 const fs = require("fs");
-//const path = require('path');
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
 
@@ -110,7 +109,7 @@ const questions = [
 ];
 
 // function to write README file
-function writeToFile(answers) { //writeToFile(fileName, answers)
+function writeToFile(answers) { 
 
     fs.writeFile('./output/README.md', generateMarkdown(answers), (err) => 
     err ? console.error(err) : console.log("Success! You're README has been created in the output folder."))
