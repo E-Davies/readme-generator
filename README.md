@@ -22,7 +22,7 @@ A series of questions about your README content will be presented in the termina
 Once all questions have been answered, a README.md file will be created in the output folder.
 
 
-> [!NOTE]
+> [!CAUTION]
 > If you run the 'node index.js' command again in the integrated terminal, it will over write any current README.md file that may already exist in the output folder.
 
 
