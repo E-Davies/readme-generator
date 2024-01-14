@@ -54,11 +54,10 @@ const questions = [
 ];
 
 // function to write README file
-function writeToFile(fileName, answers) {
-    //generateMarkdown()
+function writeToFile(answers) { //writeToFile(fileName, answers)
 
-    fs.writeFile('README.md', answers, (err) => 
-    err ? console.error(err) : console.log('Success!'))
+    fs.writeFile('./output/README.md', generateMarkdown(answers), (err) => 
+    err ? console.error(err) : console.log("Success! You're README has been created in the output folder."))
 }
 
 // function to initialize program
@@ -67,8 +66,10 @@ function init() {
         .prompt(questions)
         .then((answers) =>{ 
             console.log(answers)
+            //what to do with the answers collated from the user?
+            writeToFile(answers)
         });
 }
 
-// function call to initialize program
+// function call to initialize program when you type node index.js into terminal
 init();
