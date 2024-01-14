@@ -33,6 +33,7 @@ As a developer, I wanted to create a README generator so that I can quickly crea
 
 > [!NOTE]
 > If you do not provide an answer, you'll be prompted to provide this. The application will not progress until an answer is provided.
+> When adding in your email, if you provide an invalid email address, you'll be prompted to enter a valid email address.
 
 5. Once all questions have been answered, you'll see a success comment in the terminal and a README.md file will have been created in the output folder. 
 
