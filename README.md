@@ -43,8 +43,6 @@ As a developer, I wanted to create a README generator so that I can quickly crea
 
 ### This video provides a walkthrough of how to use the application:
 
-<video src="./assets/videos/how-to-use-app-video.mov" controls title="How to use the application"></video>
-
 ![A walkthrough video of how to use the app]([./assets/videos/how-to-use-app-video.mov](https://github.com/E-Davies/readme-generator/assets/148481294/3bfe166c-ad03-416c-92a6-264308541bd1))
 
 ## Technical skills used in this project
