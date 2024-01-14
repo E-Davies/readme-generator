@@ -31,7 +31,7 @@ ${answers.contributing}
 ## Tests 
 Please use the following command to run tests: 
 
-\`\`\`bash
+\`\`\`
 ${answers.tests} 
 \`\`\`
 
