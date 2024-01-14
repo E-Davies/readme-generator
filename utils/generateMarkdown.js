@@ -2,7 +2,7 @@
 
 function generateMarkdown(answers) {
   return `# ${answers.title}
-![License Badge](https://img.shields.io/badge/License-${answers.license}-blue)
+![${answers.license} License Badge](https://img.shields.io/badge/License-${answers.license}-blue)
 
 # Description
 ${answers.description} 
@@ -31,7 +31,7 @@ ${answers.contributing}
 ## Tests 
 Please use the following command to run tests: 
 
-\`\`\`
+\`\`\`sh
 ${answers.tests} 
 \`\`\`
 
