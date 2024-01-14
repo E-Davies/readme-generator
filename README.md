@@ -43,9 +43,9 @@ As a developer, I wanted to create a README generator so that I can quickly crea
 
 ### This video provides a walkthrough of how to use the application:
 
-<video src="./assets/videos/how-to-use-app-video.mp4" controls title="How to use the application"></video>
+<video src="./assets/videos/how-to-use-app-video.mov" controls title="How to use the application"></video>
 
-![A walkthrough video of how to use the app](./assets/videos/how-to-use-app-video.mp4)
+![A walkthrough video of how to use the app](./assets/videos/how-to-use-app-video.mov)
 
 <!--A walkthrough video that demonstrates the functionality of the README generator must be submitted and a link to the video should be included in your README file -->
 
