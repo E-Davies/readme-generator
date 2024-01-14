@@ -31,8 +31,8 @@ As a developer, I wanted to create a README generator so that I can quickly crea
 
 4. A series of questions about your README content will be presented in the terminal. Please type your answer to each question in the terminal and press enter. When presented with a list of choices, use the up & down arrows to select an option and then press enter to select it.  
 
-    > [!NOTE]
-    > If you do not provide an answer, you'll be prompted to provide this. The application will not progress until an answer is provided.
+> [!NOTE]
+> If you do not provide an answer, you'll be prompted to provide this. The application will not progress until an answer is provided.
 
 5. Once all questions have been answered, you'll see a success comment in the terminal and a README.md file will have been created in the output folder. 
 
