@@ -112,13 +112,13 @@ const questions = [
 function writeToFile(answers) { 
 
     fs.writeFile('./output/README.md', generateMarkdown(answers), (err) => 
-    err ? console.error(err) : console.log("Success! You're README has been created in the output folder."))
+    err ? console.error(err) : console.log("Success! Your README has been created in the output folder."))
 }
 
 // function to initialize program
 function init() {
     inquirer
-        .prompt(questions)
+        .prompt(questions)  
         .then((answers) =>{ 
             console.log(answers)
             //what to do with the answers collated from the user?
