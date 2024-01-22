@@ -5,6 +5,14 @@
 
 As a developer, I wanted to create a README generator so that I can quickly create a professional README for a new project. Using Node.js and the fs & inquirer NPM dependencies, this command-line application will take user input to produce a fully complete READ.md file. 
 
+## Table of Contents 
+
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Technical Skills](#technical-skills-used-in-this-project)
+
+
 ## Installation
 
 1. Fork the repository by clicking the Fork button:
@@ -13,29 +21,34 @@ As a developer, I wanted to create a README generator so that I can quickly crea
 
 2. Open the repository in VS Code.
 
-## Usage 
-
-1. Ensure you have node.js installed on your computer. To check open the Windows Command Prompt, Powershell or a similar command line tool, and type:
+3. Ensure you have node.js installed on your computer. To check open the Windows Command Prompt, Powershell or a similar command line tool, and type:
     ```sh 
     node -v
     ```
     If you have node.js installed it will print a version number (e.g. v0. 10.35). Otherwise, go to [nodejs.org](https://nodejs.org/en) and download it (it is recommended to download the LTS version).
 
-2. Open the repository in VS Code and right click on the index.js file and select 'Open in Integrated Terminal'.
+4. Install npm dependencies by typing the following into your command-line:
+    ```
+    npm install
+    ```
 
-3. In the terminal, run the command:
+## Usage 
+
+1. Open the repository in VS Code and right click on the index.js file and select 'Open in Integrated Terminal'.
+
+2. In the terminal, run the command:
 
     ```sh 
     node index.js
     ```
 
-4. A series of questions about your README content will be presented in the terminal. Please type your answer to each question in the terminal and press enter. When presented with a list of choices, use the up & down arrows to select an option and then press enter to select it.  
+3. A series of questions about your README content will be presented in the terminal. Please type your answer to each question in the terminal and press enter. When presented with a list of choices, use the up & down arrows to select an option and then press enter to select it.  
 
 > [!NOTE]
 > If you do not provide an answer, you'll be prompted to provide this. The application will not progress until an answer is provided.
 > When adding in your email, if you provide an invalid email address, you'll be prompted to enter a valid email address.
 
-5. Once all questions have been answered, you'll see a success comment in the terminal and a README.md file will have been created in the output folder. 
+4. Once all questions have been answered, you'll see a success comment in the terminal and a README.md file will have been created in the output folder. 
 
 
 > [!CAUTION]
@@ -44,6 +57,11 @@ As a developer, I wanted to create a README generator so that I can quickly crea
 ### This video provides a walkthrough of how to use the application:
 
 https://github.com/E-Davies/readme-generator/assets/148481294/a9294d3c-7b36-4d70-9e33-728fc1292ff9
+
+## License 
+
+This application is covered under the MIT license. Please see the [LICENSE](./LICENSE) file in the repository for the full details of this license.
+
 
 ## Technical skills used in this project
 
